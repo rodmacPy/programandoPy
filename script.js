@@ -59,9 +59,10 @@ function cambiarFondo(){ //cambia el fondo al hacer clic en la pantalla
  
     let color = '#'; // el color debe comenzar con #
 
-    for (var i = 0; i < 6; i++)
+    for (i = 0; i < 6; i++)
         color += hex[(Math.floor(Math.random() * 16))]; // combina los digitos y guarda en color
 
     document.getElementById('fondo').style.background=color; // al hacer clic cambia automaticamente el fondo
 }
 
+window.alert("Por favor dar doble clic a la pantalla");
